@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "wordlechest:block/wordle_chest"
+    }
+  }
+}

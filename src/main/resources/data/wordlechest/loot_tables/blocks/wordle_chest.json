@@ -1,0 +1,51 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:copy_name",
+              "source": "block_entity"
+            },
+            {
+              "function": "minecraft:copy_nbt",
+              "source": "block_entity",
+              "ops": [
+                {
+                  "source": "Lock",
+                  "target": "BlockEntityTag.Lock",
+                  "op": "replace"
+                },
+                {
+                  "source": "LootTable",
+                  "target": "BlockEntityTag.LootTable",
+                  "op": "replace"
+                },
+                {
+                  "source": "LootTableSeed",
+                  "target": "BlockEntityTag.LootTableSeed",
+                  "op": "replace"
+                },
+                {
+                  "source": "word",
+                  "target": "BlockEntityTag.word",
+                  "op": "replace"
+                },
+                {
+                  "source": "data",
+                  "target": "BlockEntityTag.data",
+                  "op": "replace"
+                }
+              ]
+            }
+          ],
+          "name": "wordlechest:wordle_chest"
+        }
+      ]
+    }
+  ]
+}

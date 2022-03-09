@@ -1,0 +1,16 @@
+modLoader="javafml" #mandatory
+loaderVersion="[36,)"
+license="GNU GPLv3"
+issueTrackerURL="https://github.com/wje5/WordleChest/issues"
+[[mods]]
+modId="wordlechest"
+version="${file.jarVersion}"
+displayName="Wordle Chest"
+displayURL="https://www.curseforge.com/minecraft/mc-mods/wordle-chest"
+logoFile="zonesoft.png"
+credits=""
+authors="Zone Software"
+description='''
+This mod adds a Wordle Chest that will be generated in world.
+Player can get loots by solve wordle.
+'''
